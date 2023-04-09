@@ -1,8 +1,8 @@
-# Manual
+# L³ manual
 
 The not so "Getting Started" manual most never read.
 
-This is currently a work in progress.
+:warning: This is currently a work in progress. :warning:
 
 ## Table of contents
 
