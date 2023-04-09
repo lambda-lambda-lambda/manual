@@ -10,6 +10,7 @@ The not so "Getting Started" manual most never read.
 - [Features](Features.md)
 - [Build dependencies](BuildDependencies.md)
 - [AWS requirements](AWSRequirements.md)
+- [Dev dependencies](DevDependencies.md)
 - [Getting Started](GettingStarted.md)
 - [Usage](Usage.md)
 - [Common methods](CommonMethods.md)
