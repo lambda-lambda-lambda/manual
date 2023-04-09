@@ -8,7 +8,7 @@ This is currently a work in progress.
 
 - [Introduction](Introduction.md)
 - [Features](Features.md)
-- [Dependencies](Dependencies.md)
+- [Build dependencies](BuildDependencies.md)
 - [AWS requirements](AWSRequirements.md)
 - [Getting Started](GettingStarted.md)
 - [Usage](Usage.md)
