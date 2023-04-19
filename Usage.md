@@ -10,7 +10,7 @@ Unless your application requires [complex routing](./ComplexRouting.md), route h
 'use strict';
 
 // Load module.
-const Router = require('lambda-lambda-lambda');
+const Router = require('@lambda-lambda-lambda/router');
 
 /**
  * @see AWS::Serverless::Function
@@ -52,7 +52,7 @@ exports.handler = (event, context, callback) => {
 'use strict';
 
 // Load module.
-const Router = require('lambda-lambda-lambda');
+const Router = require('@lambda-lambda-lambda/router');
 
 /**
  * @see AWS::Serverless::Function
