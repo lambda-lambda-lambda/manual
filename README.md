@@ -7,7 +7,6 @@ The not so "Getting Started" manual most never read.
 ## Table of contents
 
 - [Introduction](Introduction.md)
-- [Features](Features.md)
 - [Build dependencies](BuildDependencies.md)
 - [AWS requirements](AWSRequirements.md)
 - [Dev dependencies](DevDependencies.md)
