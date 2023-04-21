@@ -1,5 +1,11 @@
 # Developers
 
+## Dev dependencies
+
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Docker](https://www.docker.com/get-started)
+- [Node.js](https://nodejs.org)
+
 ## CLI options
 
 Run [ESLint](https://eslint.org) on project sources:
