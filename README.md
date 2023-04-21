@@ -7,10 +7,9 @@ The not so "Getting Started" manual most never read.
 ## Table of contents
 
 - [Introduction](Introduction.md)
-- [Build dependencies](BuildDependencies.md)
+- [Getting Started](GettingStarted.md)
 - [AWS requirements](AWSRequirements.md)
 - [Dev dependencies](DevDependencies.md)
-- [Getting Started](GettingStarted.md)
 - [Usage](Usage.md)
 - [Common methods](CommonMethods.md)
 - [Complex routing](ComplexRouting.md)
