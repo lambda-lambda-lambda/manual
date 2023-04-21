@@ -38,4 +38,4 @@ module.exports = async (req, res, next) => {
 };
 ```
 
-See [restfulApiHandler](https://github.com/lambda-lambda-lambda/example/tree/master/restfulApiHandler/src/middleware) example for more complex use cases.
+See [L³ middleware](https://github.com/lambda-lambda-lambda/middleware) for more complex use cases.
