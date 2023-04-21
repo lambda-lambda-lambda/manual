@@ -13,5 +13,5 @@ The not so "Getting Started" manual most never read.
 - [Common methods](CommonMethods.md)
 - [Complex routing](ComplexRouting.md)
 - [Middleware](Middleware.md)
-- [Developers](GettingStarted.md)
+- [Developers](Developers.md)
 - [Testing](Testing.md)
