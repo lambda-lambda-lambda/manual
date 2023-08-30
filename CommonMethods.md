@@ -1,6 +1,6 @@
 # Common methods
 
-The following methods are supported based on the class context.  For further information please refer to the [JSDoc](Developers.md#cli-options) generated [documentation](https://nuxy.github.io/lambda-lambda-lambda/doc) which includes method `arguments`/`return` types and general usage examples.
+The following methods are supported based on the class context.  For further information please refer to the [JSDoc](Developers.md#cli-options) generated [documentation](https://lambda-lambda-lambda.github.io/doc) which includes method `arguments`/`return` types and general usage examples.
 
 ## Router
 
