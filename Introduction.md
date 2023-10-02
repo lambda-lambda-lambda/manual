@@ -32,3 +32,11 @@ You want to build complex web applications that leverage both AWS [CloudFront](h
   - L³ can help minimize your application footprint without sacrificing availability or stability.
 - Coupling to a single Cloud/SASS provider.
   - You can run your L³ application in your own [Node.js](https://nodejs.org) PM2 server using the [lambda-edge-server](https://github.com/lambda-lambda-lambda/lambda-edge-server) emulator.
+
+### How does L³ work?
+
+In its most basic form the library provides helper methods that translate the [CloudFront Lambda@Edge](https://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html) `origin-request` allowing you to handle response processing without the need to construct complex Lambda dependent responses.
+
+To better visualize how L³ fits in the current AWS ecosystem the following high-level graph describes the HTTP Request/Response lifecycle.
+
+![HTTP Request/Response lifecycle](https://raw.githubusercontent.com/lambda-lambda-lambda/manual/master/images/Request-Response-Lifecycle.png)
