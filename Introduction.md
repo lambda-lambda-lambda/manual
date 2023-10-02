@@ -35,8 +35,8 @@ You want to build complex web applications that leverage both AWS [CloudFront](h
 
 ### How does L³ work?
 
-In its most basic form the library provides helper methods that translate the [CloudFront Lambda@Edge](https://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html) `origin-request` allowing you to handle response processing without the need to construct complex Lambda dependent responses.
+In its most basic form the library provides helper methods that translate the [CloudFront Lambda@Edge](https://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html) `origin-request` allowing you to handle response processing **without the need to construct complex Lambda dependent responses**.
 
-To better visualize how L³ fits in the current AWS ecosystem the following high-level graph describes the HTTP Request/Response lifecycle.
+To better visualize how L³ fits in the current AWS ecosystem the following high-level graph describes the _HTTP Request/Response lifecycle_ and role of each AWS provided service.
 
 ![HTTP Request/Response lifecycle](https://raw.githubusercontent.com/lambda-lambda-lambda/manual/master/images/Request-Response-Lifecycle.png)
