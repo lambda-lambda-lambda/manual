@@ -11,7 +11,9 @@ L³ is an extremely simple/lightweight [Node.js](https://nodejs.org/en/about) se
 - TDD ([test-driven development](https://en.wikipedia.org/wiki/Test-driven_development)) by design.
 - Scales indefinitely at a _very low cost_.
 
-## L³ features
+The framework, which is nothing more than a collection of dependencies, consists of a [router](https://github.com/lambda-lambda-lambda/router) and related [middleware](https://github.com/lambda-lambda-lambda/middleware), [server](https://github.com/lambda-lambda-lambda/lambda-edge-server) emulator, and common tools (e.g. [ESLint](https://eslint.org), [JSDoc](https://jsdoc.app), [Swagger](https://swagger.io)) to further application development using latest coding standards.
+
+### L³ framework features
 
 - Request/Response handling [API](CommonMethods.md).
 - [Routes](ComplexRouting.md#route-handler) and URI [Resource](ComplexRouting.md#resource-handler) support.
@@ -20,7 +22,7 @@ L³ is an extremely simple/lightweight [Node.js](https://nodejs.org/en/about) se
 - Open Source, [MIT licensed](https://github.com/lambda-lambda-lambda/router/blob/master/LICENSE), FREE.
 - Lightweight (**no dependencies**).
 
-## Why would you use L³?
+### Why would you use L³?
 
 You want to build complex web applications that leverage both AWS [CloudFront](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html) caching and [Lambda@Edge](https://aws.amazon.com/lambda/edge) global accessibility without:
 
