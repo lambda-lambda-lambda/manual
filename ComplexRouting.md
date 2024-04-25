@@ -147,11 +147,8 @@ module.exports = {
    * GET /api/foo
    */
   async index (req, res) {
-    return new Promise(function(resolve) {
-      res.setHeader('Content-Type', 'text/html');
-      res.status(200).send('Lambda, Lambda, Lambda');
-      resolve();
-    });
+    res.setHeader('Content-Type', 'text/html');
+    res.status(200).send('Lambda, Lambda, Lambda');
   },
 
   /**
