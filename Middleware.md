@@ -24,18 +24,33 @@ module.exports = (req, res, next) => {
 
 'use strict';
 
+const {RouterError} = require('@lambda-lambda-lambda/router/src/router/Error.js');
+
 /**
  * Middleware to define session state, if exists.
  */
 module.exports = async (req, res, next) => {
   if (await checkSession()) {
-    req.plugin('session', true); // Passed down the chain.
+
+    // Passed down the Router stack.
+    req.plugin('session', true);
+
   } else {
-    return Promise.reject('Output to console');
+
+    // Write to CloudWatch, continue..
+    throw new Error('Output to console');
   }
 
-  // next() should be omitted, use Promise.reject().
+  // next() should be omitted
 };
 ```
 
 See [L³ middleware](https://github.com/lambda-lambda-lambda/middleware) for more complex use cases.
+
+## Handling exceptions
+
+| Exception type          | Description                                                              |
+|-------------------------|--------------------------------------------------------------------------|
+| `throw new RouterError` | When called will immediately _exit the middleware stack_ and write the exception to [CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) logs. |
+| `throw new Error`       | When called will write the exception to [CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) and _run the subsequent handler in middleware stack_. |
+| `Promise.reject()`      | Same as `throw new Error` with no exception thrown.                      |
