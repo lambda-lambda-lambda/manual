@@ -6,6 +6,16 @@ In order to successfully deploy your application you must [set-up your AWS Confi
 
 WARNING: The policies above are provided to ensure a successful application deployment.  It is recommended that you adjust these policies to meet the security requirements of your Lambda application.  They should NOT be used _as-is_ in a Production environment.
 
+## Mounting the AWS configuration
+
+In order to deploy from within the container using [VS Code terminal](https://code.visualstudio.com/docs/terminal/basics) you will need to enable* the following line in: `.devcontainer/devcontainer.json`
+
+```json
+"mounts": ["source=${localEnv:HOME}/.aws,target=/root/.aws,type=bind,consistency=cached"],
+```
+
+(*) Requires container rebuild.
+
 ## Policy shortcuts
 
 - [AmazonS3FullAccess](https://us-east-1.console.aws.amazon.com/iam/home#/policies/arn%3Aaws%3Aiam%3A%3Aaws%3Apolicy%2FAmazonS3FullAccess)
