@@ -9,6 +9,7 @@ The not so "Getting Started" manual most never read.
 - [Introduction](Introduction.md)
 - [Getting Started](GettingStarted.md)
 - [AWS requirements](AWSRequirements.md)
+- [Running your App](RunningYourApp.md)
 - [Usage](Usage.md)
 - [Common methods](CommonMethods.md)
 - [Complex routing](ComplexRouting.md)
